@@ -8,8 +8,8 @@ def read_yaml(filename):
         return yaml.safe_load(f) 
 
 
-if __name__ == "__main__":
-    filename = "yaml_ex1.yml"
+if __name__ =="__main__":
+    filename ="yaml_ex1.yml"
     print(read_yaml(filename))
 
 
